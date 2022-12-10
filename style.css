@@ -1,0 +1,83 @@
+h1{
+    padding: 23px;  
+    background-color: AliceBlue;  
+    color:CornflowerBlue;
+}
+.container{
+    padding: 23px;
+    border: 3px solid white;
+    top: 50%;
+    left: 50%;
+    width: 450px;
+    height: 400px;
+}
+.keys{
+    display: grid;
+    grid-gap: 2px;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 23px;
+}
+.button{
+    height: 60px;
+    background-color: Azure;
+    border-radius: 3px;
+    border: 1px solid whitesmoke;
+    font-size: 2rem;
+    color: #333;
+    padding: 10px;
+}
+.button:hover{
+    background-color: rgb(182, 129, 170);
+    transition: 0.8s;
+}
+.operator{
+    height: 60px;
+    background-color: red;
+    border-radius: 3px;
+    border: 1px solid #c4c4c4;
+    font-size: 2rem;
+    color: #333;
+    padding: 10px;
+}
+.operator:hover{
+    background-color: rgb(212, 62, 24);
+    transition: 0.8s;
+}
+.equal-sign{
+    height: 60px;
+    background-color: rgb(59, 105, 204);
+    border-radius: 3px;
+    border: 1px solid #c4c4c4;
+    font-size: 2rem;
+    color: white;
+    padding: 10px;
+}
+.equal-sign:hover{
+    background-color: rgb(4, 7, 174);
+    transition: 0.8s;
+}
+.clear{
+    height: 60px;
+    width: 100px;
+    background-color: Crimson;
+    border-radius: 3px;
+    border: 1px solid #c4c4c4;
+    font-size: 2rem;
+    color: white;
+    padding: 10px;
+}
+.clear:hover{
+    background-color: Brown;
+    transition: 0.8s;
+}
+.screen{
+    height: 40px;
+    width: 280px;
+    background-color:LightCyan;
+    border-radius: 3px;
+    border: 1px solid #c4c4c4;
+    font-size: 2rem;
+    color: black;
+    padding: 10px;
+}
+
